@@ -1,11 +1,20 @@
 package com.scg.domain;
 
-import com.scg.util.Name;
+import com.scg.util.*;
 
 public class Consultant {
 
+	private Name name;
+
 	public Consultant(Name name) {
-		// TODO Auto-generated constructor stub
+		this.setName(name);
 	}
+	
+	public Name getName(){
+		//Name name = toString();
+		return name;
+	}
+
+	
 
 }

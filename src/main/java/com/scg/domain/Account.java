@@ -1,6 +1,6 @@
 package com.scg.domain;
 
 public interface Account {
-	String getName();
+	public String getName();
 	boolean isBillable();
 }
