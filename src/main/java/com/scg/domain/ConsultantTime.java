@@ -2,7 +2,7 @@ package com.scg.domain;
 
 import java.util.Date;
 
-public class ConsultantTime implements Account{
+public class ConsultantTime implements Account extends Skill{
 
 	public ConsultantTime(Date currentDay, ClientAccount clientAccount, Object sOFTWARE_ENGINEER, int stdWorkDay) {
 		// TODO Auto-generated constructor stub
