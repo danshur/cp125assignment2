@@ -1,6 +1,6 @@
 package com.scg.domain;
 
-import com.scg.util.Name;
+import com.scg.util.*;
 
 public class ClientAccount {
 

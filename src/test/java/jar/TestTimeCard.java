@@ -1,10 +1,20 @@
 package jar;
 
-import static org.junit.Assert.*;
+import java.util.Date;
+
+import org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TestTimeCard {
+import com.scg.domain.Consultant;
+import com.scg.domain.TimeCard;
+
+public class TestTimeCard extends TimeCard{
+
+	public TestTimeCard(Consultant programmer, Date startDate) {
+		super(programmer, startDate);
+		// TODO Auto-generated constructor stub
+	}
 
 	@Test
 	public void test() {
