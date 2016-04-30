@@ -1,4 +1,4 @@
-package jar;
+package com.scg.domain;
 
 import java.util.Date;
 
@@ -6,8 +6,7 @@ import org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.scg.domain.Consultant;
-import com.scg.domain.TimeCard;
+import com.scg.domain.*;
 
 public class TestTimeCard extends TimeCard{
 
